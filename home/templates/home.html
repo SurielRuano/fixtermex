@@ -1,45 +1,55 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Bienvenido al Cinema</title>
+{%extends 'base.html'%}
 
-	  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+{%block content%}
 
-  <!-- Compiled and minified JavaScript -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-          
-</head>
-<body>
 
-<nav>
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">Logo</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
-      </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
-      </ul>
+<div class="container">
+
+      <div class="row">
+          <div class="col s12 center-align">
+
+                <h3>Bienvenido</h3>
+            
+          </div>
+     
     </div>
-  </nav>
-<h1 class="text-center">Bienvenido al Cinema</h1>
 
-</body>
-</html>
 
-<script type="text/javascript">
-	
-$(document).ready(function(){
+    <div class="row">
 
-	  $(".button-collapse").sideNav();
-})	
-</script>
+      <div class="col s4">
+           <h4>Cartelera</h4>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+           cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+      <div class="col s4">
+            <h4>Cines en tu ciudad</h4>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. .</p>
+      </div>
+      <div class="col s4">
+            <h4>Noticias</h4>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. </P>
+
+      </div>
+
+    </div>
+          
+      
+      </div>
+
+
+
+
+{%endblock content%}
